@@ -8,46 +8,29 @@ async function loadRestaurantData() {
     
     try {
         // Get base path for GitHub Pages (repository name)
-        // Works from both index.html and restaurants/restaurant.html
         const pathParts = window.location.pathname.split('/').filter(p => p);
         const repoName = pathParts[0] || '';
         const basePath = repoName ? `/${repoName}` : '';
         
-        // Try multiple path variations to ensure it works
-        const paths = [
-            `${basePath}/restaurants/data.json`,
-            `./restaurants/data.json`,
-            `../restaurants/data.json`,
-            `restaurants/data.json`
-        ];
+        // Always use absolute path from repository root to avoid path issues
+        const dataPath = `${basePath}/restaurants/data.json`;
         
-        let response;
-        let lastError;
+        console.log('Loading restaurant data from:', dataPath);
+        console.log('Current pathname:', window.location.pathname);
         
-        for (const path of paths) {
-            try {
-                response = await fetch(path);
-                if (response.ok) {
-                    restaurantData = await response.json();
-                    console.log('Successfully loaded restaurant data from:', path);
-                    return restaurantData;
-                }
-            } catch (error) {
-                lastError = error;
-                continue;
-            }
+        const response = await fetch(dataPath);
+        
+        if (!response.ok) {
+            throw new Error(`Failed to load restaurant data: ${response.status} ${response.statusText}`);
         }
         
-        throw new Error(`Failed to load restaurant data. Last error: ${lastError?.message || 'Unknown'}`);
+        restaurantData = await response.json();
+        console.log('Successfully loaded restaurant data:', restaurantData.restaurants?.length || 0, 'restaurants');
+        return restaurantData;
     } catch (error) {
         console.error('Error loading restaurant data:', error);
         console.error('Current pathname:', window.location.pathname);
-        console.error('Attempted paths:', [
-            `${window.location.pathname.split('/').filter(p => p)[0] || ''}/restaurants/data.json`,
-            './restaurants/data.json',
-            '../restaurants/data.json',
-            'restaurants/data.json'
-        ]);
+        console.error('Base path calculated:', window.location.pathname.split('/').filter(p => p)[0] || '');
         return { restaurants: [] };
     }
 }
