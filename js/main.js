@@ -74,7 +74,11 @@ function renderRestaurants() {
 
 function createRestaurantCard(restaurant) {
     const card = document.createElement('a');
-    card.href = `restaurants/restaurant.html?id=${restaurant.id}`;
+    // Get base path for GitHub Pages
+    const pathParts = window.location.pathname.split('/').filter(p => p);
+    const repoName = pathParts[0] || '';
+    const basePath = repoName ? `/${repoName}` : '';
+    card.href = `${basePath}/restaurants/restaurant.html?id=${restaurant.id}`;
     card.className = 'restaurant-card';
     
     const stars = '★'.repeat(Math.floor(restaurant.rating)) + 
