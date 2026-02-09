@@ -1,0 +1,230 @@
+/* Restaurant Detail Page Styles */
+
+#restaurant-details {
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+.restaurant-header {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--border-gray);
+}
+
+.restaurant-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark-gray);
+}
+
+.restaurant-header .cuisine {
+    font-size: 1.2rem;
+    color: var(--text-gray);
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.restaurant-header .rating-large {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.rating-large .rating-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--michelin-red);
+}
+
+.rating-large .rating-stars {
+    font-size: 2rem;
+    color: var(--gold);
+}
+
+.restaurant-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--light-gray);
+    border-radius: 8px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.info-item label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.info-item .value {
+    font-size: 1.1rem;
+    color: var(--dark-gray);
+}
+
+.restaurant-review {
+    margin: 2rem 0;
+    padding: 2rem;
+    background: white;
+    border-left: 4px solid var(--michelin-red);
+    border-radius: 4px;
+}
+
+.restaurant-review h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--dark-gray);
+}
+
+.restaurant-review .review-summary {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: var(--dark-gray);
+}
+
+.review-highlights {
+    margin: 1.5rem 0;
+}
+
+.review-highlights h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    color: var(--dark-gray);
+}
+
+.review-highlights ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.review-highlights li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.review-highlights li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--michelin-red);
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.review-pros-cons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.pros, .cons {
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.pros {
+    background: #E8F5E9;
+    border-left: 3px solid #4CAF50;
+}
+
+.cons {
+    background: #FFEBEE;
+    border-left: 3px solid #F44336;
+}
+
+.pros h4, .cons h4 {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.pros ul, .cons ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.pros li, .cons li {
+    padding: 0.4rem 0;
+    padding-left: 1.2rem;
+    position: relative;
+    font-size: 0.95rem;
+}
+
+.pros li:before {
+    content: "+";
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.cons li:before {
+    content: "−";
+    position: absolute;
+    left: 0;
+    color: #F44336;
+    font-weight: bold;
+}
+
+.restaurant-location {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--light-gray);
+    border-radius: 8px;
+}
+
+.restaurant-location h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--dark-gray);
+}
+
+.restaurant-location .address {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: var(--dark-gray);
+}
+
+.map-container {
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 1rem;
+    border: 1px solid var(--border-gray);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .restaurant-header h2 {
+        font-size: 2rem;
+    }
+
+    .rating-large .rating-value {
+        font-size: 2rem;
+    }
+
+    .restaurant-info {
+        grid-template-columns: 1fr;
+    }
+
+    .review-pros-cons {
+        grid-template-columns: 1fr;
+    }
+}

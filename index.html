@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syracuse Food Guide - Michelin-Style Restaurant Reviews</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Syracuse Food Guide</h1>
+            <p class="subtitle">A curated guide to the best restaurants within 5 miles of Syracuse University</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="filters">
+            <div class="filter-group">
+                <label for="cuisine-filter">Cuisine:</label>
+                <select id="cuisine-filter">
+                    <option value="all">All Cuisines</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="rating-filter">Min Rating:</label>
+                <select id="rating-filter">
+                    <option value="0">All Ratings</option>
+                    <option value="4">4.0+</option>
+                    <option value="4.5">4.5+</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="search">Search:</label>
+                <input type="text" id="search" placeholder="Search restaurants...">
+            </div>
+        </section>
+
+        <section id="restaurants-grid" class="restaurants-grid">
+            <!-- Restaurant cards will be dynamically loaded here -->
+        </section>
+
+        <div id="no-results" class="no-results" style="display: none;">
+            <p>No restaurants found matching your criteria.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Syracuse Food Guide. All reviews are based on aggregated data from multiple sources.</p>
+        </div>
+    </footer>
+
+    <script src="js/data-loader.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

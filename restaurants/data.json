@@ -1,0 +1,758 @@
+{
+  "restaurants": [
+    {
+      "id": "pastabilities",
+      "name": "Pastabilities",
+      "cuisine": "Italian",
+      "address": "311 S Franklin St, Syracuse, NY 13202",
+      "coordinates": {
+        "lat": 43.0486,
+        "lng": -76.1508
+      },
+      "distance": "1.2 miles",
+      "rating": 4.6,
+      "priceRange": "$$",
+      "hours": "Mon-Thu: 11:30am-9pm, Fri-Sat: 11:30am-10pm, Sun: 4pm-9pm",
+      "review": {
+        "summary": "Pastabilities stands out as one of Syracuse's most beloved Italian restaurants, consistently earning praise for its fresh pasta and creative sauces. Located in Armory Square, this restaurant has become a local institution over the years. Reviewers consistently highlight the quality of the pasta dishes, particularly the spicy tomato oil that accompanies the bread service. The atmosphere is warm and inviting, with an industrial-chic aesthetic that complements the historic Armory Square location. Service is generally attentive, though it can get busy during peak hours. The menu offers a good variety of pasta dishes, from classic preparations to more innovative combinations. Portions are generous, and the prices are reasonable for the quality offered.",
+        "highlights": [
+          "Fresh, house-made pasta daily",
+          "Famous spicy tomato oil bread service",
+          "Creative pasta combinations beyond traditional Italian",
+          "Popular spot for both casual and special occasions"
+        ],
+        "pros": [
+          "Excellent pasta quality and preparation",
+          "Unique and flavorful sauces",
+          "Great atmosphere in historic Armory Square",
+          "Consistent quality over many years",
+          "Good value for the quality"
+        ],
+        "cons": [
+          "Can be very busy, especially on weekends",
+          "Limited parking in Armory Square area",
+          "Some dishes can be heavy/rich"
+        ]
+      }
+    },
+    {
+      "id": "dinosaur-barbecue",
+      "name": "Dinosaur Bar-B-Que",
+      "cuisine": "Barbecue",
+      "address": "246 W Willow St, Syracuse, NY 13202",
+      "coordinates": {
+        "lat": 43.0503,
+        "lng": -76.1531
+      },
+      "distance": "1.3 miles",
+      "rating": 4.5,
+      "priceRange": "$$",
+      "hours": "Mon-Thu: 11am-11pm, Fri-Sat: 11am-12am, Sun: 12pm-10pm",
+      "review": {
+        "summary": "Dinosaur Bar-B-Que is a Syracuse institution and one of the most famous barbecue restaurants in the Northeast. What started as a small biker bar has grown into a regional chain, but the original Syracuse location maintains its authentic, no-frills charm. The barbecue is consistently praised for its smoky flavors and tender meats. The pulled pork, brisket, and ribs are particular standouts. The sides, especially the mac and cheese and baked beans, receive high marks. The atmosphere is casual and lively, with walls covered in memorabilia. Service is typically friendly and efficient, though the restaurant can get very crowded. Prices are reasonable for the portion sizes, and the value is generally considered good.",
+        "highlights": [
+          "Award-winning barbecue with authentic smoky flavors",
+          "Original location of the now-famous chain",
+          "Lively, casual atmosphere with extensive memorabilia",
+          "Large portions at reasonable prices"
+        ],
+        "pros": [
+          "Excellent barbecue quality and flavor",
+          "Generous portions",
+          "Authentic, unpretentious atmosphere",
+          "Strong local following and reputation",
+          "Good selection of meats and sides"
+        ],
+        "cons": [
+          "Very popular, can have long waits",
+          "Can be loud and crowded",
+          "Limited vegetarian options",
+          "Parking can be challenging"
+        ]
+      }
+    },
+    {
+      "id": "empire-brewing",
+      "name": "Empire Brewing Company",
+      "cuisine": "American",
+      "address": "120 Walton St, Syracuse, NY 13202",
+      "coordinates": {
+        "lat": 43.0489,
+        "lng": -76.1512
+      },
+      "distance": "1.2 miles",
+      "rating": 4.3,
+      "priceRange": "$$",
+      "hours": "Mon-Thu: 11:30am-10pm, Fri-Sat: 11:30am-11pm, Sun: 11:30am-9pm",
+      "review": {
+        "summary": "Empire Brewing Company combines craft beer brewing with a solid food menu in the heart of Armory Square. The restaurant is known for its locally brewed beers and farm-to-table approach, sourcing many ingredients from local farms. The menu features American pub fare with creative twists, including burgers, salads, and entrees. Reviewers appreciate the quality of the beer selection and the freshness of the food. The atmosphere is casual and welcoming, with both indoor and outdoor seating options. Service is generally good, though it can be slower during busy periods. The prices are moderate, and the restaurant offers good value, especially for beer enthusiasts.",
+        "highlights": [
+          "House-brewed craft beers",
+          "Farm-to-table ingredients",
+          "Located in vibrant Armory Square",
+          "Outdoor patio seating available"
+        ],
+        "pros": [
+          "Excellent craft beer selection",
+          "Fresh, locally sourced ingredients",
+          "Good variety on menu",
+          "Pleasant atmosphere",
+          "Reasonable prices"
+        ],
+        "cons": [
+          "Service can be slow during peak times",
+          "Some dishes can be inconsistent",
+          "Limited parking nearby"
+        ]
+      }
+    },
+    {
+      "id": "limestone-grill",
+      "name": "Limestone Grill",
+      "cuisine": "American",
+      "address": "109 S Warren St, Syracuse, NY 13202",
+      "coordinates": {
+        "lat": 43.0495,
+        "lng": -76.1518
+      },
+      "distance": "1.3 miles",
+      "rating": 4.4,
+      "priceRange": "$$$",
+      "hours": "Mon-Thu: 5pm-10pm, Fri-Sat: 5pm-11pm, Closed Sun",
+      "review": {
+        "summary": "Limestone Grill offers an upscale dining experience in downtown Syracuse with a focus on steaks and American cuisine. The restaurant has earned a reputation for quality steaks, fresh seafood, and attentive service. The atmosphere is sophisticated yet comfortable, making it suitable for both business dinners and special occasions. Reviewers consistently praise the quality of the steaks and the preparation. The wine list is well-curated, and the cocktails are well-made. Service is professional and knowledgeable. Prices are on the higher side, but most reviewers feel the quality justifies the cost. The restaurant is smaller and more intimate, which adds to the dining experience.",
+        "highlights": [
+          "Premium steaks and quality cuts",
+          "Upscale atmosphere for special occasions",
+          "Well-curated wine selection",
+          "Professional, attentive service"
+        ],
+        "pros": [
+          "Excellent steak quality",
+          "Sophisticated atmosphere",
+          "Knowledgeable service staff",
+          "Good wine and cocktail selection",
+          "Consistent quality"
+        ],
+        "cons": [
+          "Higher price point",
+          "Smaller space, reservations recommended",
+          "Limited vegetarian options",
+          "Closed on Sundays"
+        ]
+      }
+    },
+    {
+      "id": "the-yellow-brick-pizza",
+      "name": "The Yellow Brick Pizza",
+      "cuisine": "Pizza",
+      "address": "738 S Crouse Ave, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0402,
+        "lng": -76.1305
+      },
+      "distance": "0.3 miles",
+      "rating": 4.2,
+      "priceRange": "$",
+      "hours": "Mon-Sun: 11am-2am",
+      "review": {
+        "summary": "The Yellow Brick Pizza is a popular spot among Syracuse University students, located just steps from campus on Crouse Avenue. This casual pizza joint is known for its late-night hours, making it a favorite for students. The pizza is New York-style with a thin, crispy crust and generous toppings. Reviewers appreciate the quick service and reasonable prices, especially for the college crowd. The atmosphere is casual and no-frills, perfect for a quick meal or late-night snack. While it may not be gourmet pizza, it's consistently good and hits the spot for students looking for affordable, convenient food. The staff is friendly and the service is fast.",
+        "highlights": [
+          "Very close to SU campus",
+          "Late-night hours (until 2am)",
+          "Affordable prices for students",
+          "Quick service"
+        ],
+        "pros": [
+          "Convenient location for students",
+          "Late hours",
+          "Affordable prices",
+          "Fast service",
+          "Good portion sizes"
+        ],
+        "cons": [
+          "Basic atmosphere",
+          "Can get very busy during peak student hours",
+          "Not gourmet-quality pizza",
+          "Limited seating"
+        ]
+      }
+    },
+    {
+      "id": "strong-hearts-cafe",
+      "name": "Strong Hearts Cafe",
+      "cuisine": "Vegetarian",
+      "address": "719 E Genesee St, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0445,
+        "lng": -76.1332
+      },
+      "distance": "0.5 miles",
+      "rating": 4.5,
+      "priceRange": "$",
+      "hours": "Mon-Sat: 8am-9pm, Sun: 9am-8pm",
+      "review": {
+        "summary": "Strong Hearts Cafe is a beloved vegetarian and vegan restaurant that has developed a strong following in Syracuse. Located near the university, it offers a completely plant-based menu that appeals to both vegetarians and meat-eaters alike. Reviewers consistently praise the creativity of the menu and the quality of the food, noting that even non-vegetarians enjoy the meals. The milkshakes are particularly popular, as are the sandwiches and breakfast items. The atmosphere is casual and welcoming, with a community-oriented vibe. Service is friendly, though it can be a bit slow during busy periods. Prices are reasonable, and the restaurant offers good value for the quality and portion sizes.",
+        "highlights": [
+          "100% vegetarian and vegan menu",
+          "Creative plant-based dishes",
+          "Popular milkshakes and smoothies",
+          "Community-oriented atmosphere"
+        ],
+        "pros": [
+          "Excellent vegetarian/vegan options",
+          "Creative menu items",
+          "Friendly, welcoming atmosphere",
+          "Good value",
+          "Appeals to vegetarians and non-vegetarians"
+        ],
+        "cons": [
+          "Service can be slow during busy times",
+          "Limited seating",
+          "Can be busy, especially on weekends",
+          "Some items can be pricey for the portion size"
+        ]
+      }
+    },
+    {
+      "id": "funk-n-waffles",
+      "name": "Funk 'n Waffles",
+      "cuisine": "American",
+      "address": "307 S Crouse Ave, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0408,
+        "lng": -76.1312
+      },
+      "distance": "0.2 miles",
+      "rating": 4.4,
+      "priceRange": "$",
+      "hours": "Mon-Thu: 8am-10pm, Fri-Sat: 8am-12am, Sun: 8am-10pm",
+      "review": {
+        "summary": "Funk 'n Waffles is a unique Syracuse institution that combines live music with creative waffle dishes. Located right on Marshall Street near campus, it's a favorite among students and locals. The menu features both sweet and savory waffle creations, from classic breakfast waffles to innovative dinner options. The restaurant also hosts live music events, adding to its appeal. Reviewers love the creative menu and the quality of the waffles. The atmosphere is fun and casual, perfect for students. Service is generally good, though it can get busy during peak hours. Prices are student-friendly, and the restaurant offers good value. The combination of food and music makes it a unique dining experience in Syracuse.",
+        "highlights": [
+          "Creative sweet and savory waffle dishes",
+          "Live music venue",
+          "Right on Marshall Street near campus",
+          "Unique concept combining food and entertainment"
+        ],
+        "pros": [
+          "Creative, unique menu",
+          "Great location for students",
+          "Fun atmosphere with live music",
+          "Reasonable prices",
+          "Good quality waffles"
+        ],
+        "cons": [
+          "Can be very busy, especially on weekends",
+          "Limited seating",
+          "Service can be slow during peak times",
+          "Can be loud during music events"
+        ]
+      }
+    },
+    {
+      "id": "the-apex",
+      "name": "The Apex",
+      "cuisine": "American",
+      "address": "201 S Salina St, Syracuse, NY 13202",
+      "coordinates": {
+        "lat": 43.0508,
+        "lng": -76.1525
+      },
+      "distance": "1.4 miles",
+      "rating": 4.3,
+      "priceRange": "$$",
+      "hours": "Mon-Thu: 11:30am-10pm, Fri-Sat: 11:30am-11pm, Sun: 4pm-9pm",
+      "review": {
+        "summary": "The Apex is a modern American restaurant located in downtown Syracuse, known for its creative menu and craft cocktails. The restaurant offers a contemporary take on American cuisine with locally sourced ingredients when possible. Reviewers appreciate the creativity of the dishes and the quality of the ingredients. The atmosphere is modern and stylish, with a bar area that's popular for drinks and small plates. Service is generally attentive and knowledgeable about the menu. Prices are moderate, and the restaurant offers good value for the quality. The restaurant has become a popular spot for both casual dining and special occasions.",
+        "highlights": [
+          "Creative American cuisine",
+          "Craft cocktail program",
+          "Modern, stylish atmosphere",
+          "Locally sourced ingredients"
+        ],
+        "pros": [
+          "Creative menu items",
+          "Good quality ingredients",
+          "Nice atmosphere",
+          "Knowledgeable service",
+          "Good cocktail selection"
+        ],
+        "cons": [
+          "Some dishes can be inconsistent",
+          "Can be noisy in the bar area",
+          "Limited parking",
+          "Reservations recommended for weekends"
+        ]
+      }
+    },
+    {
+      "id": "kitty-hoynes",
+      "name": "Kitty Hoynes Irish Pub",
+      "cuisine": "Irish",
+      "address": "301 W Fayette St, Syracuse, NY 13202",
+      "coordinates": {
+        "lat": 43.0498,
+        "lng": -76.1528
+      },
+      "distance": "1.3 miles",
+      "rating": 4.4,
+      "priceRange": "$$",
+      "hours": "Mon-Thu: 11:30am-10pm, Fri-Sat: 11:30am-11pm, Sun: 12pm-9pm",
+      "review": {
+        "summary": "Kitty Hoynes is an authentic Irish pub in downtown Syracuse that has been serving traditional Irish fare and a wide selection of beers for years. The restaurant is known for its cozy, authentic pub atmosphere and traditional Irish dishes like fish and chips, shepherd's pie, and corned beef. Reviewers consistently praise the quality of the food and the authentic atmosphere. The beer selection is extensive, with many Irish and craft beer options. Service is friendly and the staff is knowledgeable about the menu and beer selection. Prices are reasonable, and the restaurant offers good value. It's a popular spot for both lunch and dinner, and the pub atmosphere makes it a great place to gather with friends.",
+        "highlights": [
+          "Authentic Irish pub atmosphere",
+          "Traditional Irish dishes",
+          "Extensive beer selection",
+          "Cozy, welcoming environment"
+        ],
+        "pros": [
+          "Authentic Irish food",
+          "Great beer selection",
+          "Cozy atmosphere",
+          "Friendly service",
+          "Good value"
+        ],
+        "cons": [
+          "Can be crowded, especially on weekends",
+          "Limited vegetarian options",
+          "Can be noisy",
+          "Parking can be challenging"
+        ]
+      }
+    },
+    {
+      "id": "recess-coffee",
+      "name": "Recess Coffee",
+      "cuisine": "Cafe",
+      "address": "110 Harvard Pl, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0415,
+        "lng": -76.1328
+      },
+      "distance": "0.4 miles",
+      "rating": 4.3,
+      "priceRange": "$",
+      "hours": "Mon-Fri: 7am-6pm, Sat-Sun: 8am-6pm",
+      "review": {
+        "summary": "Recess Coffee is a local coffee shop near Syracuse University that has developed a loyal following for its quality coffee and relaxed atmosphere. The shop roasts its own beans and offers a variety of coffee drinks, along with light food options like pastries and sandwiches. Reviewers appreciate the quality of the coffee and the cozy, welcoming atmosphere. The space is comfortable for studying or meeting with friends. Service is friendly, and the baristas are knowledgeable about coffee. Prices are reasonable for a specialty coffee shop. The shop has a community feel and is popular among students and locals alike.",
+        "highlights": [
+          "House-roasted coffee beans",
+          "Cozy atmosphere for studying",
+          "Knowledgeable baristas",
+          "Community-oriented space"
+        ],
+        "pros": [
+          "Quality coffee",
+          "Comfortable atmosphere",
+          "Friendly service",
+          "Good for studying",
+          "Reasonable prices"
+        ],
+        "cons": [
+          "Limited food options",
+          "Can be busy during peak study hours",
+          "Limited seating",
+          "Closes relatively early"
+        ]
+      }
+    },
+    {
+      "id": "the-melting-pot",
+      "name": "The Melting Pot",
+      "cuisine": "Fondue",
+      "address": "247 W Fayette St, Syracuse, NY 13202",
+      "coordinates": {
+        "lat": 43.0501,
+        "lng": -76.1530
+      },
+      "distance": "1.3 miles",
+      "rating": 4.2,
+      "priceRange": "$$$",
+      "hours": "Mon-Thu: 5pm-10pm, Fri-Sat: 5pm-11pm, Sun: 4pm-9pm",
+      "review": {
+        "summary": "The Melting Pot offers a unique fondue dining experience in downtown Syracuse. This chain restaurant specializes in cheese, chocolate, and cooking fondues, providing an interactive dining experience. Reviewers appreciate the novelty of the experience and the quality of the ingredients. The restaurant is popular for special occasions and date nights due to its intimate, romantic atmosphere. Service is typically attentive, as the fondue experience requires some guidance. Prices are on the higher side, but the experience is considered worth it for special occasions. The chocolate fondue desserts are particularly popular. The restaurant can be a fun, memorable dining experience, though it's not typically a regular dining spot due to the price point.",
+        "highlights": [
+          "Interactive fondue dining experience",
+          "Romantic atmosphere for special occasions",
+          "Cheese, cooking, and chocolate fondues",
+          "Popular for date nights"
+        ],
+        "pros": [
+          "Unique dining experience",
+          "Good quality ingredients",
+          "Romantic atmosphere",
+          "Attentive service",
+          "Fun for special occasions"
+        ],
+        "cons": [
+          "Higher price point",
+          "Meal takes longer than typical dining",
+          "Can be expensive for what you get",
+          "Not ideal for quick meals"
+        ]
+      }
+    },
+    {
+      "id": "original-gravy",
+      "name": "Original Gravy",
+      "cuisine": "Italian",
+      "address": "729 S Crouse Ave, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0401,
+        "lng": -76.1304
+      },
+      "distance": "0.3 miles",
+      "rating": 4.1,
+      "priceRange": "$",
+      "hours": "Mon-Sun: 11am-2am",
+      "review": {
+        "summary": "Original Gravy is a casual Italian restaurant located very close to Syracuse University campus, making it a popular spot among students. The restaurant serves Italian-American favorites like pasta, pizza, and subs. Reviewers appreciate the generous portions and reasonable prices, which make it appealing to the college crowd. The food is consistently good, though not necessarily gourmet. The atmosphere is casual and no-frills, perfect for a quick, affordable meal. Service is typically fast, which is important for students on the go. The restaurant is particularly popular for late-night dining, as it stays open until 2am. While it may not be the most refined Italian food, it offers good value and convenience for students.",
+        "highlights": [
+          "Very close to SU campus",
+          "Late-night hours",
+          "Generous portions",
+          "Student-friendly prices"
+        ],
+        "pros": [
+          "Convenient location",
+          "Affordable prices",
+          "Large portions",
+          "Late hours",
+          "Fast service"
+        ],
+        "cons": [
+          "Basic atmosphere",
+          "Not gourmet-quality food",
+          "Can be very busy during peak student hours",
+          "Limited seating"
+        ]
+      }
+    },
+    {
+      "id": "water-street-cafe",
+      "name": "Water Street Cafe",
+      "cuisine": "Mediterranean",
+      "address": "315 S Franklin St, Syracuse, NY 13202",
+      "coordinates": {
+        "lat": 43.0487,
+        "lng": -76.1509
+      },
+      "distance": "1.2 miles",
+      "rating": 4.3,
+      "priceRange": "$$",
+      "hours": "Mon-Thu: 11am-9pm, Fri-Sat: 11am-10pm, Sun: 12pm-8pm",
+      "review": {
+        "summary": "Water Street Cafe offers Mediterranean cuisine in Armory Square, with a focus on fresh, healthy options. The restaurant is known for its salads, wraps, and Mediterranean dishes like hummus, falafel, and kebabs. Reviewers appreciate the freshness of the ingredients and the healthy options available. The atmosphere is casual and comfortable, making it a good option for both lunch and dinner. Service is generally friendly and efficient. Prices are moderate, and the restaurant offers good value for the quality and freshness of the food. The restaurant is popular among those looking for healthier dining options in downtown Syracuse.",
+        "highlights": [
+          "Fresh Mediterranean cuisine",
+          "Healthy dining options",
+          "Located in Armory Square",
+          "Good selection of vegetarian options"
+        ],
+        "pros": [
+          "Fresh ingredients",
+          "Healthy options",
+          "Good variety",
+          "Friendly service",
+          "Reasonable prices"
+        ],
+        "cons": [
+          "Some dishes can be inconsistent",
+          "Limited seating",
+          "Can be busy during lunch hours",
+          "Some items can be pricey"
+        ]
+      }
+    },
+    {
+      "id": "the-red-shed",
+      "name": "The Red Shed",
+      "cuisine": "American",
+      "address": "201 S Salina St, Syracuse, NY 13202",
+      "coordinates": {
+        "lat": 43.0509,
+        "lng": -76.1526
+      },
+      "distance": "1.4 miles",
+      "rating": 4.0,
+      "priceRange": "$$",
+      "hours": "Mon-Thu: 11:30am-10pm, Fri-Sat: 11:30am-11pm, Sun: 12pm-9pm",
+      "review": {
+        "summary": "The Red Shed is a casual American restaurant in downtown Syracuse known for its burgers and pub fare. The restaurant offers a relaxed atmosphere and a menu focused on comfort food. Reviewers appreciate the quality of the burgers and the casual, friendly atmosphere. The restaurant is a good option for a casual meal with friends or family. Service is generally friendly, though it can be slower during busy periods. Prices are reasonable, and the restaurant offers good value. The restaurant has a neighborhood pub feel and is popular for both lunch and dinner.",
+        "highlights": [
+          "Quality burgers",
+          "Casual, relaxed atmosphere",
+          "Comfort food focus",
+          "Neighborhood pub feel"
+        ],
+        "pros": [
+          "Good burgers",
+          "Casual atmosphere",
+          "Friendly service",
+          "Reasonable prices",
+          "Good for casual dining"
+        ],
+        "cons": [
+          "Service can be slow",
+          "Some dishes can be inconsistent",
+          "Can be noisy",
+          "Limited parking"
+        ]
+      }
+    },
+    {
+      "id": "alto-cinco",
+      "name": "Alto Cinco",
+      "cuisine": "Mexican",
+      "address": "526 Westcott St, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0458,
+        "lng": -76.1285
+      },
+      "distance": "0.6 miles",
+      "rating": 4.4,
+      "priceRange": "$$",
+      "hours": "Mon-Thu: 11:30am-10pm, Fri-Sat: 11:30am-11pm, Sun: 12pm-9pm",
+      "review": {
+        "summary": "Alto Cinco is a popular Mexican restaurant in the Westcott neighborhood, known for its authentic flavors and vibrant atmosphere. The restaurant offers a menu of traditional and creative Mexican dishes, with a focus on fresh ingredients. Reviewers consistently praise the quality of the food, particularly the tacos, burritos, and margaritas. The atmosphere is lively and colorful, reflecting the restaurant's Mexican theme. Service is generally friendly and efficient. Prices are moderate, and the restaurant offers good value. The restaurant is popular among both students and locals, and it can get busy, especially on weekends. The margaritas are particularly well-regarded.",
+        "highlights": [
+          "Authentic Mexican flavors",
+          "Popular margaritas",
+          "Vibrant, colorful atmosphere",
+          "Located in Westcott neighborhood"
+        ],
+        "pros": [
+          "Excellent Mexican food",
+          "Fresh ingredients",
+          "Great margaritas",
+          "Lively atmosphere",
+          "Good value"
+        ],
+        "cons": [
+          "Can be very busy, especially weekends",
+          "Limited seating",
+          "Can be noisy",
+          "Parking can be challenging in Westcott"
+        ]
+      }
+    },
+    {
+      "id": "rise-n-shine",
+      "name": "Rise N Shine Diner",
+      "cuisine": "Diner",
+      "address": "820 E Genesee St, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0448,
+        "lng": -76.1315
+      },
+      "distance": "0.5 miles",
+      "rating": 4.2,
+      "priceRange": "$",
+      "hours": "Mon-Sun: 6am-3pm",
+      "review": {
+        "summary": "Rise N Shine Diner is a classic American diner near Syracuse University, serving breakfast and lunch. The diner is known for its hearty breakfast options, including pancakes, omelets, and classic diner fare. Reviewers appreciate the generous portions, reasonable prices, and classic diner atmosphere. The service is typically fast and friendly, which is important for a breakfast spot. The diner is popular among students and locals looking for a traditional diner experience. While it may not be gourmet, it offers good value and comfort food that hits the spot. The diner has a nostalgic feel and is a reliable option for breakfast or lunch.",
+        "highlights": [
+          "Classic American diner experience",
+          "Hearty breakfast options",
+          "Generous portions",
+          "Student-friendly prices"
+        ],
+        "pros": [
+          "Good breakfast food",
+          "Large portions",
+          "Affordable prices",
+          "Fast service",
+          "Classic diner atmosphere"
+        ],
+        "cons": [
+          "Basic diner food, not gourmet",
+          "Can be busy during breakfast hours",
+          "Limited seating",
+          "Closes early (3pm)"
+        ]
+      }
+    },
+    {
+      "id": "the-inn-complete",
+      "name": "The Inn Complete",
+      "cuisine": "American",
+      "address": "501 S Crouse Ave, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0398,
+        "lng": -76.1315
+      },
+      "distance": "0.2 miles",
+      "rating": 4.1,
+      "priceRange": "$$",
+      "hours": "Mon-Sun: 11am-2am",
+      "review": {
+        "summary": "The Inn Complete is a popular bar and restaurant located right on Marshall Street, making it a favorite among Syracuse University students. The restaurant serves American pub fare and is known for its bar scene and late-night hours. Reviewers appreciate the convenient location, reasonable prices, and the lively atmosphere. The food is consistently good for pub fare, with burgers, wings, and other bar food staples. Service is generally friendly, though it can be slower during very busy periods. The restaurant is particularly popular for its bar scene and is a common gathering spot for students. While it may not be fine dining, it offers good value and a fun atmosphere for students.",
+        "highlights": [
+          "Right on Marshall Street",
+          "Popular bar scene",
+          "Late-night hours",
+          "Student favorite"
+        ],
+        "pros": [
+          "Very convenient for students",
+          "Lively atmosphere",
+          "Reasonable prices",
+          "Late hours",
+          "Good bar food"
+        ],
+        "cons": [
+          "Can be very busy and loud",
+          "Service can be slow when crowded",
+          "Not fine dining",
+          "Limited seating during peak times"
+        ]
+      }
+    },
+    {
+      "id": "sakana-sushi",
+      "name": "Sakana-Ya Sushi",
+      "cuisine": "Japanese",
+      "address": "113 Marshall St, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0395,
+        "lng": -76.1318
+      },
+      "distance": "0.2 miles",
+      "rating": 4.3,
+      "priceRange": "$$",
+      "hours": "Mon-Thu: 11:30am-10pm, Fri-Sat: 11:30am-11pm, Sun: 12pm-9pm",
+      "review": {
+        "summary": "Sakana-Ya Sushi is a Japanese restaurant located on Marshall Street, offering sushi and Japanese cuisine near Syracuse University. The restaurant is popular among students and locals for its sushi and Japanese dishes. Reviewers appreciate the quality of the sushi and the variety of options available. The restaurant offers both traditional and creative sushi rolls, as well as other Japanese dishes like teriyaki and ramen. The atmosphere is casual and comfortable. Service is generally friendly and efficient. Prices are moderate, and the restaurant offers good value, especially for sushi. The restaurant is a good option for those looking for Japanese food near campus.",
+        "highlights": [
+          "Located on Marshall Street",
+          "Quality sushi",
+          "Variety of Japanese dishes",
+          "Convenient for students"
+        ],
+        "pros": [
+          "Good sushi quality",
+          "Convenient location",
+          "Good variety",
+          "Friendly service",
+          "Reasonable prices"
+        ],
+        "cons": [
+          "Can be busy during peak hours",
+          "Limited seating",
+          "Some dishes can be inconsistent",
+          "Not the most authentic Japanese experience"
+        ]
+      }
+    },
+    {
+      "id": "blues-bbq",
+      "name": "Blues BBQ",
+      "cuisine": "Barbecue",
+      "address": "206 S Salina St, Syracuse, NY 13202",
+      "coordinates": {
+        "lat": 43.0505,
+        "lng": -76.1522
+      },
+      "distance": "1.4 miles",
+      "rating": 4.2,
+      "priceRange": "$$",
+      "hours": "Mon-Thu: 11am-9pm, Fri-Sat: 11am-10pm, Sun: 12pm-8pm",
+      "review": {
+        "summary": "Blues BBQ is a barbecue restaurant in downtown Syracuse that offers a different take on barbecue compared to the more famous Dinosaur Bar-B-Que. The restaurant focuses on traditional barbecue with a focus on quality meats and sauces. Reviewers appreciate the quality of the barbecue and the variety of options. The atmosphere is casual and welcoming. Service is generally friendly. Prices are reasonable, and the restaurant offers good value. While it may not have the same reputation as Dinosaur, it's a solid option for barbecue in Syracuse and is often less crowded.",
+        "highlights": [
+          "Traditional barbecue",
+          "Quality meats and sauces",
+          "Less crowded than Dinosaur",
+          "Casual atmosphere"
+        ],
+        "pros": [
+          "Good barbecue quality",
+          "Reasonable prices",
+          "Friendly service",
+          "Good variety",
+          "Less crowded"
+        ],
+        "cons": [
+          "Not as well-known as Dinosaur",
+          "Some dishes can be inconsistent",
+          "Limited parking",
+          "Can be slow during busy periods"
+        ]
+      }
+    },
+    {
+      "id": "the-commons",
+      "name": "The Commons",
+      "cuisine": "American",
+      "address": "201 S Salina St, Syracuse, NY 13202",
+      "coordinates": {
+        "lat": 43.0510,
+        "lng": -76.1527
+      },
+      "distance": "1.4 miles",
+      "rating": 4.1,
+      "priceRange": "$$",
+      "hours": "Mon-Thu: 11:30am-10pm, Fri-Sat: 11:30am-11pm, Sun: 12pm-9pm",
+      "review": {
+        "summary": "The Commons is a casual American restaurant in downtown Syracuse offering a menu of American classics and comfort food. The restaurant has a relaxed atmosphere and is a good option for casual dining. Reviewers appreciate the variety on the menu and the reasonable prices. Service is generally friendly, though it can be inconsistent. The restaurant is a solid option for a casual meal, though it may not stand out as exceptional. Prices are reasonable, and the restaurant offers decent value.",
+        "highlights": [
+          "American comfort food",
+          "Casual atmosphere",
+          "Reasonable prices",
+          "Good variety"
+        ],
+        "pros": [
+          "Good variety",
+          "Reasonable prices",
+          "Casual atmosphere",
+          "Friendly service",
+          "Comfortable dining"
+        ],
+        "cons": [
+          "Not exceptional",
+          "Service can be inconsistent",
+          "Some dishes can be average",
+          "Limited parking"
+        ]
+      }
+    },
+    {
+      "id": "peppinos",
+      "name": "Peppino's Neighborhood Pizza",
+      "cuisine": "Pizza",
+      "address": "509 S Crouse Ave, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0396,
+        "lng": -76.1316
+      },
+      "distance": "0.2 miles",
+      "rating": 4.2,
+      "priceRange": "$",
+      "hours": "Mon-Sun: 11am-2am",
+      "review": {
+        "summary": "Peppino's is a popular pizza place on Marshall Street, very close to Syracuse University campus. The restaurant is known for its New York-style pizza and is a favorite among students. Reviewers appreciate the quality of the pizza, the reasonable prices, and the convenient location. The restaurant offers both slices and whole pies, making it convenient for students. Service is typically fast, which is important for a pizza place. The atmosphere is casual and no-frills. The restaurant is particularly popular for late-night dining, as it stays open until 2am. While it may not be gourmet pizza, it's consistently good and offers good value for students.",
+        "highlights": [
+          "Right on Marshall Street",
+          "New York-style pizza",
+          "Late-night hours",
+          "Student favorite"
+        ],
+        "pros": [
+          "Very convenient location",
+          "Good pizza quality",
+          "Affordable prices",
+          "Late hours",
+          "Fast service"
+        ],
+        "cons": [
+          "Can be very busy",
+          "Basic atmosphere",
+          "Limited seating",
+          "Not gourmet pizza"
+        ]
+      }
+    }
+  ]
+}
