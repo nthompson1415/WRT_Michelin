@@ -3,18 +3,25 @@ document.addEventListener('DOMContentLoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const restaurantId = urlParams.get('id');
     
+    console.log('Restaurant ID from URL:', restaurantId);
+    
     if (!restaurantId) {
         document.getElementById('restaurant-details').innerHTML = 
-            '<p>Restaurant not found.</p>';
+            '<p>Restaurant not found. No ID provided in URL.</p>';
         return;
     }
     
-    await loadRestaurantData();
+    const data = await loadRestaurantData();
+    console.log('Loaded restaurant data:', data);
+    console.log('Total restaurants loaded:', data.restaurants?.length || 0);
+    
     const restaurant = getRestaurantById(restaurantId);
+    console.log('Found restaurant:', restaurant);
     
     if (!restaurant) {
         document.getElementById('restaurant-details').innerHTML = 
-            '<p>Restaurant not found.</p>';
+            `<p>Restaurant not found. ID: "${restaurantId}"</p>
+             <p>Available restaurant IDs: ${data.restaurants?.map(r => r.id).join(', ') || 'none'}</p>`;
         return;
     }
     

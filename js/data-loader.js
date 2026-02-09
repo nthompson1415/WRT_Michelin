@@ -8,22 +8,46 @@ async function loadRestaurantData() {
     
     try {
         // Get base path for GitHub Pages (repository name)
+        // Works from both index.html and restaurants/restaurant.html
         const pathParts = window.location.pathname.split('/').filter(p => p);
         const repoName = pathParts[0] || '';
         const basePath = repoName ? `/${repoName}` : '';
         
-        const dataPath = `${basePath}/restaurants/data.json`;
-        const response = await fetch(dataPath);
+        // Try multiple path variations to ensure it works
+        const paths = [
+            `${basePath}/restaurants/data.json`,
+            `./restaurants/data.json`,
+            `../restaurants/data.json`,
+            `restaurants/data.json`
+        ];
         
-        if (!response.ok) {
-            throw new Error(`Failed to load restaurant data: ${response.status}`);
+        let response;
+        let lastError;
+        
+        for (const path of paths) {
+            try {
+                response = await fetch(path);
+                if (response.ok) {
+                    restaurantData = await response.json();
+                    console.log('Successfully loaded restaurant data from:', path);
+                    return restaurantData;
+                }
+            } catch (error) {
+                lastError = error;
+                continue;
+            }
         }
         
-        restaurantData = await response.json();
-        return restaurantData;
+        throw new Error(`Failed to load restaurant data. Last error: ${lastError?.message || 'Unknown'}`);
     } catch (error) {
         console.error('Error loading restaurant data:', error);
-        console.error('Attempted path:', `${window.location.pathname.split('/').filter(p => p)[0] || ''}/restaurants/data.json`);
+        console.error('Current pathname:', window.location.pathname);
+        console.error('Attempted paths:', [
+            `${window.location.pathname.split('/').filter(p => p)[0] || ''}/restaurants/data.json`,
+            './restaurants/data.json',
+            '../restaurants/data.json',
+            'restaurants/data.json'
+        ]);
         return { restaurants: [] };
     }
 }
