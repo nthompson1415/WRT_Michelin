@@ -27,16 +27,19 @@ function populateCuisineFilter() {
 function setupFilters() {
     const cuisineFilter = document.getElementById('cuisine-filter');
     const ratingFilter = document.getElementById('rating-filter');
+    const affordableFilter = document.getElementById('affordable-filter');
     const searchInput = document.getElementById('search');
     
     cuisineFilter.addEventListener('change', applyFilters);
     ratingFilter.addEventListener('change', applyFilters);
+    affordableFilter.addEventListener('change', applyFilters);
     searchInput.addEventListener('input', applyFilters);
 }
 
 function applyFilters() {
     const cuisineFilter = document.getElementById('cuisine-filter').value;
     const ratingFilter = parseFloat(document.getElementById('rating-filter').value) || 0;
+    const affordableFilter = document.getElementById('affordable-filter').value;
     const searchTerm = document.getElementById('search').value.toLowerCase();
     
     filteredRestaurants = allRestaurants.filter(restaurant => {
@@ -47,7 +50,16 @@ function applyFilters() {
             restaurant.cuisine.toLowerCase().includes(searchTerm) ||
             (restaurant.address && restaurant.address.toLowerCase().includes(searchTerm));
         
-        return matchesCuisine && matchesRating && matchesSearch;
+        let matchesPrice = true;
+        if (affordableFilter === 'affordable') {
+            matchesPrice = restaurant.priceRange === '$' || restaurant.collegeAffordable === true;
+        } else if (affordableFilter === 'moderate') {
+            matchesPrice = restaurant.priceRange === '$$';
+        } else if (affordableFilter === 'upscale') {
+            matchesPrice = restaurant.priceRange === '$$$' || restaurant.priceRange === '$$$$';
+        }
+        
+        return matchesCuisine && matchesRating && matchesSearch && matchesPrice;
     });
     
     renderRestaurants();

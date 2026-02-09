@@ -154,6 +154,7 @@
       "distance": "0.3 miles",
       "rating": 4.2,
       "priceRange": "$",
+      "collegeAffordable": true,
       "hours": "Mon-Sun: 11am-2am",
       "review": {
         "summary": "The Yellow Brick Pizza is a popular spot among Syracuse University students, located just steps from campus on Crouse Avenue. This casual pizza joint is known for its late-night hours, making it a favorite for students. The pizza is New York-style with a thin, crispy crust and generous toppings. Reviewers appreciate the quick service and reasonable prices, especially for the college crowd. The atmosphere is casual and no-frills, perfect for a quick meal or late-night snack. While it may not be gourmet pizza, it's consistently good and hits the spot for students looking for affordable, convenient food. The staff is friendly and the service is fast.",
@@ -190,6 +191,7 @@
       "distance": "0.5 miles",
       "rating": 4.5,
       "priceRange": "$",
+      "collegeAffordable": true,
       "hours": "Mon-Sat: 8am-9pm, Sun: 9am-8pm",
       "review": {
         "summary": "Strong Hearts Cafe is a beloved vegetarian and vegan restaurant that has developed a strong following in Syracuse. Located near the university, it offers a completely plant-based menu that appeals to both vegetarians and meat-eaters alike. Reviewers consistently praise the creativity of the menu and the quality of the food, noting that even non-vegetarians enjoy the meals. The milkshakes are particularly popular, as are the sandwiches and breakfast items. The atmosphere is casual and welcoming, with a community-oriented vibe. Service is friendly, though it can be a bit slow during busy periods. Prices are reasonable, and the restaurant offers good value for the quality and portion sizes.",
@@ -226,6 +228,7 @@
       "distance": "0.2 miles",
       "rating": 4.4,
       "priceRange": "$",
+      "collegeAffordable": true,
       "hours": "Mon-Thu: 8am-10pm, Fri-Sat: 8am-12am, Sun: 8am-10pm",
       "review": {
         "summary": "Funk 'n Waffles is a unique Syracuse institution that combines live music with creative waffle dishes. Located right on Marshall Street near campus, it's a favorite among students and locals. The menu features both sweet and savory waffle creations, from classic breakfast waffles to innovative dinner options. The restaurant also hosts live music events, adding to its appeal. Reviewers love the creative menu and the quality of the waffles. The atmosphere is fun and casual, perfect for students. Service is generally good, though it can get busy during peak hours. Prices are student-friendly, and the restaurant offers good value. The combination of food and music makes it a unique dining experience in Syracuse.",
@@ -334,6 +337,7 @@
       "distance": "0.4 miles",
       "rating": 4.3,
       "priceRange": "$",
+      "collegeAffordable": true,
       "hours": "Mon-Fri: 7am-6pm, Sat-Sun: 8am-6pm",
       "review": {
         "summary": "Recess Coffee is a local coffee shop near Syracuse University that has developed a loyal following for its quality coffee and relaxed atmosphere. The shop roasts its own beans and offers a variety of coffee drinks, along with light food options like pastries and sandwiches. Reviewers appreciate the quality of the coffee and the cozy, welcoming atmosphere. The space is comfortable for studying or meeting with friends. Service is friendly, and the baristas are knowledgeable about coffee. Prices are reasonable for a specialty coffee shop. The shop has a community feel and is popular among students and locals alike.",
@@ -550,6 +554,7 @@
       "distance": "0.5 miles",
       "rating": 4.2,
       "priceRange": "$",
+      "collegeAffordable": true,
       "hours": "Mon-Sun: 6am-3pm",
       "review": {
         "summary": "Rise N Shine Diner is a classic American diner near Syracuse University, serving breakfast and lunch. The diner is known for its hearty breakfast options, including pancakes, omelets, and classic diner fare. Reviewers appreciate the generous portions, reasonable prices, and classic diner atmosphere. The service is typically fast and friendly, which is important for a breakfast spot. The diner is popular among students and locals looking for a traditional diner experience. While it may not be gourmet, it offers good value and comfort food that hits the spot. The diner has a nostalgic feel and is a reliable option for breakfast or lunch.",
@@ -751,6 +756,376 @@
           "Basic atmosphere",
           "Limited seating",
           "Not gourmet pizza"
+        ]
+      }
+    },
+    {
+      "id": "mcdonalds-marshall",
+      "name": "McDonald's",
+      "cuisine": "Fast Food",
+      "address": "727 S Crouse Ave, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0400,
+        "lng": -76.1303
+      },
+      "distance": "0.3 miles",
+      "rating": 3.8,
+      "priceRange": "$",
+      "collegeAffordable": true,
+      "hours": "Mon-Sun: 6am-2am",
+      "review": {
+        "summary": "The McDonald's on Marshall Street is conveniently located right near Syracuse University campus, making it a popular choice for students looking for quick, affordable meals. This location is known for its late hours and accessibility to students. While it's standard fast food fare, reviewers note that the service is generally fast and the location is very convenient. The restaurant offers the full McDonald's menu including breakfast, burgers, and late-night options. Prices are very affordable, making it a go-to spot for students on a budget. The atmosphere is typical fast food - quick service, casual seating, and efficient for grab-and-go meals.",
+        "highlights": [
+          "Very close to SU campus",
+          "Late-night hours (until 2am)",
+          "Very affordable prices",
+          "Quick service"
+        ],
+        "pros": [
+          "Extremely convenient location",
+          "Very affordable",
+          "Late hours",
+          "Fast service",
+          "Familiar menu"
+        ],
+        "cons": [
+          "Standard fast food quality",
+          "Can be very busy during peak hours",
+          "Limited healthy options",
+          "Basic atmosphere"
+        ]
+      }
+    },
+    {
+      "id": "subway-marshall",
+      "name": "Subway",
+      "cuisine": "Fast Food",
+      "address": "727 S Crouse Ave, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0401,
+        "lng": -76.1304
+      },
+      "distance": "0.3 miles",
+      "rating": 4.0,
+      "priceRange": "$",
+      "collegeAffordable": true,
+      "hours": "Mon-Sun: 7am-11pm",
+      "review": {
+        "summary": "The Subway on Marshall Street offers a healthier fast food option near Syracuse University. Students appreciate the ability to customize their sandwiches and the relatively healthier options compared to other fast food chains. Reviewers note that the sandwiches are made fresh to order and the location is very convenient for students. The restaurant offers a variety of breads, meats, and vegetables, allowing for customization. Prices are affordable, and the restaurant often has student deals and promotions. Service is generally friendly and efficient. The atmosphere is clean and casual, suitable for a quick meal or takeout.",
+        "highlights": [
+          "Customizable sandwiches",
+          "Healthier fast food option",
+          "Very affordable",
+          "Convenient campus location"
+        ],
+        "pros": [
+          "Healthier than typical fast food",
+          "Customizable options",
+          "Affordable prices",
+          "Convenient location",
+          "Fresh ingredients"
+        ],
+        "cons": [
+          "Can be busy during lunch hours",
+          "Limited seating",
+          "Standard chain quality",
+          "Can be slow during rushes"
+        ]
+      }
+    },
+    {
+      "id": "dominos-marshall",
+      "name": "Domino's Pizza",
+      "cuisine": "Fast Food",
+      "address": "727 S Crouse Ave, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0402,
+        "lng": -76.1305
+      },
+      "distance": "0.3 miles",
+      "rating": 3.9,
+      "priceRange": "$",
+      "collegeAffordable": true,
+      "hours": "Mon-Sun: 10:30am-2am",
+      "review": {
+        "summary": "Domino's Pizza on Marshall Street is a popular choice for students looking for affordable pizza delivery or pickup. The location is very convenient to Syracuse University campus, making it a go-to option for late-night orders and group meals. Reviewers appreciate the consistent quality, fast delivery, and student-friendly prices. The restaurant offers a variety of pizza options, sides, and deals that are particularly appealing to college students. Service is generally fast, and the delivery is reliable. Prices are very affordable, especially with student deals and promotions. The restaurant is particularly popular for late-night orders and group orders.",
+        "highlights": [
+          "Very affordable pizza",
+          "Late-night delivery",
+          "Student deals available",
+          "Convenient campus location"
+        ],
+        "pros": [
+          "Very affordable",
+          "Fast delivery",
+          "Late hours",
+          "Student-friendly deals",
+          "Convenient location"
+        ],
+        "cons": [
+          "Standard chain pizza quality",
+          "Can be busy during peak times",
+          "Limited dine-in space",
+          "Delivery can be slow during rushes"
+        ]
+      }
+    },
+    {
+      "id": "chipotle-armory",
+      "name": "Chipotle Mexican Grill",
+      "cuisine": "Fast Food",
+      "address": "201 S Salina St, Syracuse, NY 13202",
+      "coordinates": {
+        "lat": 43.0507,
+        "lng": -76.1523
+      },
+      "distance": "1.4 miles",
+      "rating": 4.2,
+      "priceRange": "$",
+      "collegeAffordable": true,
+      "hours": "Mon-Sun: 10:45am-10pm",
+      "review": {
+        "summary": "Chipotle in downtown Syracuse offers fresh, customizable Mexican-inspired fast food that's popular among students and professionals. The restaurant is known for its fresh ingredients, generous portions, and relatively healthy fast food options. Reviewers consistently praise the quality of the ingredients and the ability to customize bowls, burritos, and tacos. The atmosphere is modern and clean, with efficient service. Prices are moderate for fast food but offer good value given the portion sizes and quality. The restaurant is popular for both lunch and dinner, and the location in downtown Syracuse makes it accessible to students.",
+        "highlights": [
+          "Fresh, customizable ingredients",
+          "Relatively healthy fast food",
+          "Generous portions",
+          "Popular with students"
+        ],
+        "pros": [
+          "Fresh ingredients",
+          "Customizable options",
+          "Good portion sizes",
+          "Relatively healthy",
+          "Consistent quality"
+        ],
+        "cons": [
+          "Can be expensive for fast food",
+          "Can have long lines during peak hours",
+          "Limited seating",
+          "Can be inconsistent during busy times"
+        ]
+      }
+    },
+    {
+      "id": "taco-bell-marshall",
+      "name": "Taco Bell",
+      "cuisine": "Fast Food",
+      "address": "727 S Crouse Ave, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0403,
+        "lng": -76.1306
+      },
+      "distance": "0.3 miles",
+      "rating": 3.7,
+      "priceRange": "$",
+      "collegeAffordable": true,
+      "hours": "Mon-Sun: 7am-2am",
+      "review": {
+        "summary": "Taco Bell on Marshall Street is a popular late-night fast food option for Syracuse University students. The restaurant is known for its affordable Mexican-inspired fast food and late hours, making it a favorite for late-night cravings. Reviewers appreciate the very affordable prices and the variety of menu options. The restaurant offers tacos, burritos, quesadillas, and specialty items at budget-friendly prices. Service is generally fast, though it can get busy during peak hours and late at night. The atmosphere is typical fast food - casual and efficient. The location is very convenient for students, and the late hours make it popular for late-night dining.",
+        "highlights": [
+          "Very affordable prices",
+          "Late-night hours (until 2am)",
+          "Variety of menu options",
+          "Very close to campus"
+        ],
+        "pros": [
+          "Extremely affordable",
+          "Late hours",
+          "Convenient location",
+          "Fast service",
+          "Variety of options"
+        ],
+        "cons": [
+          "Standard fast food quality",
+          "Can be very busy late at night",
+          "Limited healthy options",
+          "Can be inconsistent"
+        ]
+      }
+    },
+    {
+      "id": "panda-express",
+      "name": "Panda Express",
+      "cuisine": "Fast Food",
+      "address": "350 S Warren St, Syracuse, NY 13202",
+      "coordinates": {
+        "lat": 43.0498,
+        "lng": -76.1515
+      },
+      "distance": "1.3 miles",
+      "rating": 4.0,
+      "priceRange": "$",
+      "collegeAffordable": true,
+      "hours": "Mon-Sun: 10:30am-9pm",
+      "review": {
+        "summary": "Panda Express in downtown Syracuse offers American Chinese fast food that's popular among students and professionals. The restaurant is known for its quick service, affordable prices, and variety of Chinese-inspired dishes. Reviewers appreciate the consistent quality and the ability to get a quick, affordable meal. The restaurant offers a variety of entrees, sides, and combination plates at reasonable prices. Service is generally fast and efficient. The atmosphere is clean and casual, suitable for a quick meal. Prices are affordable, making it a good option for students on a budget looking for a quick Chinese food fix.",
+        "highlights": [
+          "Affordable Chinese fast food",
+          "Quick service",
+          "Variety of options",
+          "Consistent quality"
+        ],
+        "pros": [
+          "Affordable prices",
+          "Fast service",
+          "Good variety",
+          "Consistent quality",
+          "Convenient location"
+        ],
+        "cons": [
+          "Standard fast food Chinese",
+          "Can be busy during lunch",
+          "Limited authentic options",
+          "Can be greasy"
+        ]
+      }
+    },
+    {
+      "id": "jimmy-johns",
+      "name": "Jimmy John's",
+      "cuisine": "Fast Food",
+      "address": "727 S Crouse Ave, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0404,
+        "lng": -76.1307
+      },
+      "distance": "0.3 miles",
+      "rating": 4.1,
+      "priceRange": "$",
+      "collegeAffordable": true,
+      "hours": "Mon-Sun: 10:30am-9pm",
+      "review": {
+        "summary": "Jimmy John's on Marshall Street offers fast-casual sandwiches that are popular among students for quick lunches and late-night meals. The restaurant is known for its 'freaky fast' delivery and fresh ingredients. Reviewers appreciate the quick service, fresh bread, and variety of sandwich options. The restaurant offers a wide selection of subs, wraps, and sides at affordable prices. Service is typically very fast, which is important for students on the go. The atmosphere is casual and efficient. Prices are reasonable, and the restaurant offers good value for the quality. The location is very convenient for students, and the fast service makes it ideal for quick meals between classes.",
+        "highlights": [
+          "Freaky fast delivery",
+          "Fresh ingredients",
+          "Affordable sandwiches",
+          "Very close to campus"
+        ],
+        "pros": [
+          "Very fast service",
+          "Fresh bread",
+          "Affordable prices",
+          "Convenient location",
+          "Good variety"
+        ],
+        "cons": [
+          "Can be busy during lunch",
+          "Limited seating",
+          "Standard chain quality",
+          "Can be expensive for what you get"
+        ]
+      }
+    },
+    {
+      "id": "dunkin-marshall",
+      "name": "Dunkin'",
+      "cuisine": "Fast Food",
+      "address": "727 S Crouse Ave, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0405,
+        "lng": -76.1308
+      },
+      "distance": "0.3 miles",
+      "rating": 3.9,
+      "priceRange": "$",
+      "collegeAffordable": true,
+      "hours": "Mon-Sun: 5am-10pm",
+      "review": {
+        "summary": "Dunkin' on Marshall Street is a convenient coffee and breakfast option for Syracuse University students. The location is very close to campus, making it a popular spot for morning coffee runs and quick breakfast items. Reviewers appreciate the convenient location, affordable prices, and quick service. The restaurant offers coffee, donuts, breakfast sandwiches, and other quick items at budget-friendly prices. Service is generally fast, though it can get busy during morning rush hours. The atmosphere is typical fast food coffee shop - quick service and casual. Prices are very affordable, making it a go-to spot for students looking for an inexpensive coffee or quick breakfast.",
+        "highlights": [
+          "Very close to campus",
+          "Early morning hours (5am)",
+          "Very affordable",
+          "Quick coffee and breakfast"
+        ],
+        "pros": [
+          "Very convenient location",
+          "Very affordable",
+          "Early hours",
+          "Fast service",
+          "Good for quick breakfast"
+        ],
+        "cons": [
+          "Can be very busy in the morning",
+          "Standard chain quality",
+          "Limited seating",
+          "Can be inconsistent"
+        ]
+      }
+    },
+    {
+      "id": "pizza-hut",
+      "name": "Pizza Hut",
+      "cuisine": "Fast Food",
+      "address": "350 S Warren St, Syracuse, NY 13202",
+      "coordinates": {
+        "lat": 43.0499,
+        "lng": -76.1516
+      },
+      "distance": "1.3 miles",
+      "rating": 3.8,
+      "priceRange": "$",
+      "collegeAffordable": true,
+      "hours": "Mon-Sun: 11am-11pm",
+      "review": {
+        "summary": "Pizza Hut in downtown Syracuse offers pizza delivery and dine-in options that are popular among students for group orders and affordable meals. The restaurant is known for its variety of pizza options, deals, and reliable delivery. Reviewers appreciate the student-friendly prices, especially for group orders and deals. The restaurant offers a variety of pizzas, wings, and sides at affordable prices. Service is generally reliable, and delivery is available. Prices are very affordable, especially with deals and promotions. The restaurant is popular for group orders and late-night delivery, making it a convenient option for students.",
+        "highlights": [
+          "Affordable pizza",
+          "Group order deals",
+          "Delivery available",
+          "Student-friendly prices"
+        ],
+        "pros": [
+          "Very affordable",
+          "Good for group orders",
+          "Reliable delivery",
+          "Student deals",
+          "Variety of options"
+        ],
+        "cons": [
+          "Standard chain pizza",
+          "Can be slow during busy times",
+          "Limited dine-in space",
+          "Quality can vary"
+        ]
+      }
+    },
+    {
+      "id": "wings-over-syracuse",
+      "name": "Wings Over Syracuse",
+      "cuisine": "Fast Food",
+      "address": "727 S Crouse Ave, Syracuse, NY 13210",
+      "coordinates": {
+        "lat": 43.0406,
+        "lng": -76.1309
+      },
+      "distance": "0.3 miles",
+      "rating": 4.3,
+      "priceRange": "$",
+      "collegeAffordable": true,
+      "hours": "Mon-Sun: 11am-2am",
+      "review": {
+        "summary": "Wings Over Syracuse is a popular wing restaurant near Syracuse University campus, known for its extensive wing flavors and late-night hours. The restaurant is a favorite among students for group orders, game day meals, and late-night cravings. Reviewers consistently praise the variety of wing flavors, the quality of the wings, and the student-friendly prices. The restaurant offers a wide selection of wing flavors, boneless wings, and sides. Service is generally fast, and delivery is available. Prices are affordable, especially for group orders. The late hours make it popular for late-night orders, and the location is very convenient for students.",
+        "highlights": [
+          "Extensive wing flavor selection",
+          "Late-night hours (until 2am)",
+          "Student favorite",
+          "Very close to campus"
+        ],
+        "pros": [
+          "Great wing variety",
+          "Affordable prices",
+          "Late hours",
+          "Convenient location",
+          "Good for groups"
+        ],
+        "cons": [
+          "Can be very busy, especially on game days",
+          "Delivery can be slow during peak times",
+          "Limited seating",
+          "Can be greasy"
         ]
       }
     }
