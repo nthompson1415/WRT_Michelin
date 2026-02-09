@@ -2,6 +2,8 @@
 
 A Michelin Guide-inspired website showcasing the best restaurants within 5 miles of Syracuse University's campus.
 
+*Last updated: 2024*
+
 ## Overview
 
 This GitHub Pages site provides curated reviews and information about restaurants near Syracuse University, featuring:
