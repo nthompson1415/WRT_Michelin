@@ -25,15 +25,22 @@ function populateCuisineFilter() {
 }
 
 function setupFilters() {
-    const cuisineFilter = document.getElementById('cuisine-filter');
-    const ratingFilter = document.getElementById('rating-filter');
-    const affordableFilter = document.getElementById('affordable-filter');
+    const applyButton = document.getElementById('apply-filters');
+    const clearButton = document.getElementById('clear-filters');
     const searchInput = document.getElementById('search');
     
-    cuisineFilter.addEventListener('change', applyFilters);
-    ratingFilter.addEventListener('change', applyFilters);
-    affordableFilter.addEventListener('change', applyFilters);
-    searchInput.addEventListener('input', applyFilters);
+    // Apply filters on button click
+    applyButton.addEventListener('click', applyFilters);
+    
+    // Apply filters on Enter key in search box
+    searchInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            applyFilters();
+        }
+    });
+    
+    // Clear all filters
+    clearButton.addEventListener('click', clearFilters);
 }
 
 function applyFilters() {
@@ -62,6 +69,16 @@ function applyFilters() {
         return matchesCuisine && matchesRating && matchesSearch && matchesPrice;
     });
     
+    renderRestaurants();
+}
+
+function clearFilters() {
+    document.getElementById('cuisine-filter').value = 'all';
+    document.getElementById('rating-filter').value = '0';
+    document.getElementById('affordable-filter').value = 'all';
+    document.getElementById('search').value = '';
+    
+    filteredRestaurants = [...allRestaurants];
     renderRestaurants();
 }
 
