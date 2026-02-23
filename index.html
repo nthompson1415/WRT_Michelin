@@ -9,60 +9,192 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Syracuse Food Guide</h1>
-            <p class="subtitle">A curated guide to the best restaurants within 5 miles of Syracuse University</p>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">&#9733;</span>
+                Syracuse Food Guide
+            </a>
+            <div class="nav-links">
+                <a href="#featured">Featured</a>
+                <a href="#cuisines">Cuisines</a>
+                <a href="#near-campus">Near Campus</a>
+                <a href="#browse">Browse All</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-badge">Est. 2024 &middot; Syracuse, NY</div>
+            <h1 class="hero-title">Discover Syracuse's<br>Finest Dining</h1>
+            <p class="hero-subtitle">A curated guide to the best restaurants within 5 miles of Syracuse University &mdash; rated, reviewed, and ready for you.</p>
+            <div class="hero-search">
+                <input type="text" id="hero-search" placeholder="Search restaurants, cuisines, or neighborhoods..." autocomplete="off">
+                <button id="hero-search-btn" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" id="stat-total">0</span>
+                    <span class="stat-label">Restaurants</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="stat-cuisines">0</span>
+                    <span class="stat-label">Cuisines</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="stat-nearby">0</span>
+                    <span class="stat-label">Near Campus</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            <span>Scroll to explore</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </div>
     </header>
 
-    <main class="container">
-        <section class="filters">
-            <div class="filter-group">
-                <label for="cuisine-filter">Cuisine:</label>
-                <select id="cuisine-filter">
-                    <option value="all">All Cuisines</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label for="rating-filter">Min Rating:</label>
-                <select id="rating-filter">
-                    <option value="0">All Ratings</option>
-                    <option value="4">4.0+</option>
-                    <option value="4.5">4.5+</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label for="affordable-filter">Price:</label>
-                <select id="affordable-filter">
-                    <option value="all">All Prices</option>
-                    <option value="affordable">College Affordable ($)</option>
-                    <option value="moderate">Moderate ($$)</option>
-                    <option value="upscale">Upscale ($$$)</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label for="search">Search:</label>
-                <input type="text" id="search" placeholder="Search restaurants...">
-            </div>
-            <div class="filter-actions">
-                <button id="apply-filters" class="btn btn-primary">Go</button>
-                <button id="clear-filters" class="btn btn-secondary">Clear</button>
+    <main>
+
+        <!-- Featured Restaurants -->
+        <section class="section featured-section" id="featured">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Top Rated</span>
+                    <h2 class="section-title">Featured Restaurants</h2>
+                    <p class="section-desc">Our highest-rated dining destinations in Syracuse</p>
+                </div>
+                <div class="featured-grid" id="featured-grid">
+                    <!-- Dynamically populated -->
+                </div>
             </div>
         </section>
 
-        <section id="restaurants-grid" class="restaurants-grid">
-            <!-- Restaurant cards will be dynamically loaded here -->
+        <!-- Cuisine Categories -->
+        <section class="section cuisines-section" id="cuisines">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Explore</span>
+                    <h2 class="section-title">Browse by Cuisine</h2>
+                    <p class="section-desc">Find exactly what you're craving</p>
+                </div>
+                <div class="cuisine-grid" id="cuisine-grid">
+                    <!-- Dynamically populated -->
+                </div>
+            </div>
         </section>
 
-        <div id="no-results" class="no-results" style="display: none;">
-            <p>No restaurants found matching your criteria.</p>
-        </div>
+        <!-- Near Campus -->
+        <section class="section near-section" id="near-campus">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Walking Distance</span>
+                    <h2 class="section-title">Near Campus</h2>
+                    <p class="section-desc">Great eats just steps from Syracuse University</p>
+                </div>
+                <div class="near-grid" id="near-grid">
+                    <!-- Dynamically populated -->
+                </div>
+            </div>
+        </section>
+
+        <!-- College Affordable -->
+        <section class="section affordable-section" id="affordable">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Budget Friendly</span>
+                    <h2 class="section-title">College Affordable</h2>
+                    <p class="section-desc">Delicious food that won't break the bank</p>
+                </div>
+                <div class="affordable-scroll" id="affordable-scroll">
+                    <!-- Dynamically populated -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Browse All -->
+        <section class="section browse-section" id="browse">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Complete Directory</span>
+                    <h2 class="section-title">All Restaurants</h2>
+                    <p class="section-desc">Browse our complete collection of Syracuse dining spots</p>
+                </div>
+
+                <div class="filters" id="filters">
+                    <div class="filter-group">
+                        <label for="cuisine-filter">Cuisine</label>
+                        <select id="cuisine-filter">
+                            <option value="all">All Cuisines</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="rating-filter">Min Rating</label>
+                        <select id="rating-filter">
+                            <option value="0">All Ratings</option>
+                            <option value="4">4.0+</option>
+                            <option value="4.5">4.5+</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="price-filter">Price</label>
+                        <select id="price-filter">
+                            <option value="all">All Prices</option>
+                            <option value="affordable">$ &mdash; Budget</option>
+                            <option value="moderate">$$ &mdash; Moderate</option>
+                            <option value="upscale">$$$ &mdash; Upscale</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="filter-search">Search</label>
+                        <input type="text" id="filter-search" placeholder="Search restaurants...">
+                    </div>
+                    <div class="filter-actions">
+                        <button id="apply-filters" class="btn btn-primary">Go</button>
+                        <button id="clear-filters" class="btn btn-secondary">Clear</button>
+                    </div>
+                </div>
+
+                <div id="restaurants-grid" class="restaurants-grid">
+                    <!-- Restaurant cards dynamically loaded -->
+                </div>
+
+                <div id="no-results" class="no-results" style="display: none;">
+                    <div class="no-results-icon">&#128269;</div>
+                    <p>No restaurants found matching your criteria.</p>
+                    <button class="btn btn-primary" onclick="clearFilters()">Clear Filters</button>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Syracuse Food Guide. All reviews are based on aggregated data from multiple sources.</p>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="footer-logo">&#9733; Syracuse Food Guide</span>
+                <p>A curated guide to the best restaurants near Syracuse University.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#featured">Featured</a>
+                <a href="#cuisines">Cuisines</a>
+                <a href="#near-campus">Near Campus</a>
+                <a href="#browse">Browse All</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Syracuse Food Guide. All reviews are based on aggregated data from multiple sources.</p>
+            </div>
         </div>
     </footer>
 
